@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* GLOBAL VARIABLE */
+:root{
+	--color-body:#f8f8f8;
+	--color-heading:#003300;
+	--color-color-1:#000000;
+	--color-color-2:#f50514;
+	--color-color-3:#777 ;
+    --color-color-4:#00bfff;
+    --color-color-5:gold;
+    --margin-left:300px;
+}
+body{
+font-family: 'Phudu', cursive;
+color: var(--color-body);
+position: relative;
+
+}
+body img{
+  width: 100%;
+  height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+
+
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.75rem;
+    background-color: #fff;
+    color: #003300;
+    width: 22rem;
+    background-clip: border-box;
+    margin-left: 800px;
+    margin-top: 200px;
+    position: absolute;
+    top: 100px;
+  }
+  
+  .header {
+    position: relative;
+    background-clip: border-box;
+    background: rgb(1,0,5);
+    background: linear-gradient(94deg, rgba(1,0,5,1) 11%, rgba(1,8,2,0.8547794117647058) 37%, rgba(93,98,98,1) 73%);
+    margin: 10px;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    color: #fff;
+    height: 7rem;
+    letter-spacing: 0;
+    line-height: 1.375;
+    font-weight: 600;
+    font-size: 1.9rem;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .inputs {
+    padding: 1.5rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 200px;
+    width: 100%;
+    height: 2.75rem;
+    position: relative;
+  }
+  
+  .input {
+    border: 1px solid var(--color-color-3);
+    outline: 0;
+    color: var(--color-color-3);
+    font-weight: 400;
+    font-size: .9rem;
+    line-height: 1.25rem;
+    padding: 0.75rem;
+    background-color: transparent;
+    border-radius: .375rem;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .input:focus {
+    border: 1px solid #1e88e5;
+  }
+  
+  .checkbox-container {
+    margin-left: -0.625rem;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .checkbox {
+    position: relative;
+    overflow: hidden;
+    padding: .55rem;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.027);
+    height: 35px;
+    width: 35px;
+  }
+  
+  .checkbox input {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .checkbox-text {
+    cursor: pointer;
+  }
+  
+  .sigin-btn {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .75rem;
+    line-height: 1rem;
+    text-align: center;
+    padding: .75rem 1.5rem;
+    background: rgb(1,0,5);
+    background: linear-gradient(94deg, rgba(1,0,5,1) 11%, rgba(1,8,2,0.8547794117647058) 37%, rgba(93,98,98,1) 73%);
+    border-radius: .5rem;
+    width: 100%;
+    outline: 0;
+    border: 0;
+    color: #fff;
+  }
+  
+  .signup-link {
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 0.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .signup-link a, .forget {
+    line-height: 1.5;
+    font-weight: 700;
+    font-size: .875rem;
+    margin-left: .25rem;
+    color: rgb(1,0,5);;
+  }
+  
+  .forget {
+    text-align: right;
+    font-weight: 600;
+  }
